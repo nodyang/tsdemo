@@ -19,6 +19,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Ts.Core\Ts.Core.csproj" />
+    <ProjectReference Include="..\Ts.EntityFramework.Core\Ts.EntityFramework.Core.csproj" />
   </ItemGroup>
 
   <ItemGroup>

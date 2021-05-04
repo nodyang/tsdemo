@@ -1,8 +1,12 @@
 ﻿using System.Collections;
+using System.Collections.Generic;
+using Ts.EntityFramework.Core;
 namespace Ts.Application
 {
-    public class IUserService
+    public interface IUserService
     {
-        
+        IEnumerable<User> GetAll();
+
+        void Add();
     }
 }
