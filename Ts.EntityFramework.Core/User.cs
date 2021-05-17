@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.CodeAnalysis.CSharp.Syntax;
 
 namespace Ts.EntityFramework.Core
 {
@@ -22,12 +23,15 @@ namespace Ts.EntityFramework.Core
         /// 年龄
         /// </summary>
         public int Age { get; set; }
+        
+        
 
         // 配置数据库实体
         public void Configure(EntityTypeBuilder<User> entityBuilder, DbContext dbContext, Type dbContextLocator)
         {
             entityBuilder.HasKey(u => u.Id);
             entityBuilder.HasIndex(u => u.Name);
+            
         }
     }
 }

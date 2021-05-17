@@ -9,5 +9,12 @@ namespace Ts.EntityFramework.Core
         public DefaultDbContext(DbContextOptions<DefaultDbContext> options) : base(options)
         {
         }
+        
+        // protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        // {
+        //     optionsBuilder.UseLazyLoadingProxies()
+        //         .UseSqlite(DbProvider.GetConnectionString<DefaultDbContext>());
+        //     base.OnConfiguring(optionsBuilder);
+        // }
     }
 }
