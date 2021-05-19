@@ -11,6 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Furion.Extras.Authentication.JwtBearer\Furion.Extras.Authentication.JwtBearer.csproj" />
+    <ProjectReference Include="..\Furion\Furion.csproj" />
     <ProjectReference Include="..\Ts.Application\Ts.Application.csproj" />
     <ProjectReference Include="..\Ts.Database.Migrations\Ts.Database.Migrations.csproj" />
   </ItemGroup>

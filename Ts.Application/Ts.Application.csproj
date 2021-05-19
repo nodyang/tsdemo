@@ -18,6 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Furion\Furion.csproj" />
     <ProjectReference Include="..\Ts.Core\Ts.Core.csproj" />
     <ProjectReference Include="..\Ts.EntityFramework.Core\Ts.EntityFramework.Core.csproj" />
   </ItemGroup>

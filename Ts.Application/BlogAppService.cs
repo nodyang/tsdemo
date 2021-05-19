@@ -26,6 +26,8 @@ namespace Ts.Application
 
         public async Task TestU()
         {
+           
+            
             var dto = await _repository.Entities.FindAsync(1);
             dto.Name = DateTime.Now.ToLongDateString();
             //   dto = blogModel.Adapt<Blog>();

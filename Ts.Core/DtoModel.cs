@@ -6,6 +6,7 @@ namespace Ts.Core
     {
         [Required]
         [StringLength(2)]
+        
         public string Title { get; set; }
 
         // 你的验证逻辑

@@ -14,6 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Furion\Furion.csproj" />
     <ProjectReference Include="..\Ts.Core\Ts.Core.csproj" />
   </ItemGroup>
 
